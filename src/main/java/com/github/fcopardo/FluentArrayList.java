@@ -25,4 +25,9 @@ public class FluentArrayList<E> extends ArrayList<E> {
         return this;
     }
 
+    public FluentArrayList<E> fluentClear(){
+        clear();
+        return this;
+    }
+
 }

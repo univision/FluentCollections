@@ -22,4 +22,9 @@ public class FluentHashMap<E, X> extends HashMap<E, X> {
         super.remove(key);
         return this;
     }
+
+    public FluentHashMap<E, X> clearFluent(){
+        super.clear();
+        return this;
+    }
 }
