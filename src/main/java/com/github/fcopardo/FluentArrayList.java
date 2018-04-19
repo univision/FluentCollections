@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.function.UnaryOperator;
 
 /**
- * Created by fco on 16-11-17.
+ * Created by fco on 16-11-17. 
  */
 public class FluentArrayList<E> extends ArrayList<E> {
 
